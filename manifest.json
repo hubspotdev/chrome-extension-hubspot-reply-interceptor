@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "HubSpot Reply Type Interceptor",
+  "version": "1.0",
+  "description": "Prompts for reply type and changes ticket status accordingly in HubSpot Service Desk.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://app.hubspot.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://app.hubspot.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
