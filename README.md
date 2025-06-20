@@ -7,8 +7,8 @@
   - Acknowledgement
   - Actual reply
 - Automatically opens the ticket status dropdown for status selection:
-  - "Waiting on us" for acknowledgements
-  - "Waiting on contact" for actual replies
+  - "Waiting on SA" or "Waiting on HubSpot" for Acknowledgements
+  - "Waiting on contact" for Actual replies
 - Only triggers for "Send" actions (ignores "Add comment" button)
 
 ## Installation
@@ -37,9 +37,9 @@
 1. Compose your reply in HubSpot Service Help Desk
 2. Click the "Send" button
 3. Select the reply type when prompted:
-   - "Acknowledgement" - Sets status to "Waiting on us"
-   - "Actual reply" - Sets status to "Waiting on contact"
-4. The ticket status dropdown will automatically open for your selection
+   - "Acknowledgement"
+   - "Actual reply"
+4. The ticket status dropdown will automatically open for the status selection
 
 ## Files
 
