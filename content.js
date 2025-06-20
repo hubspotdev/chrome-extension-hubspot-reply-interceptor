@@ -37,7 +37,7 @@ function createPrompt(callback) {
 
 // Open the status dropdown
 function openStatusDropdown() {
-    const dropdownButton = document.querySelector('div[data-test-id="ReferenceLiteSearchSelect"][role="button"]');
+    const dropdownButton = document.querySelector('button[data-test-id="ReferenceLiteSearchSelectV2"]');
     if (!dropdownButton) {
         alert('Could not find the ticket status dropdown.');
         return;
